@@ -87,6 +87,8 @@ func calcSimilarity(ls []int, rs []int) int {
 }
 
 func main() {
+	// Solution to https://adventofcode.com/2024/day/1
+
 	ls, rs, err := readInput("input.txt")
 	if err != nil {
 		log.Fatalf("Error reading input: %v", err)
